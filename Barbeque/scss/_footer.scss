@@ -1,0 +1,50 @@
+﻿footer {
+    padding-top: 30px;
+
+    img {
+        margin: emCalc(5px) emCalc(10px) emCalc(5px) 0;
+    }
+
+    li {
+        margin-bottom: emCalc(20px);
+    }
+
+		.copyright {
+		    border-top: #ccc 1px solid;
+		    margin-top: 15px;
+		    padding: 15px 0;
+
+		    .columns {
+			    color: #999;
+			    font-size: 70%;
+		    }
+	}
+    
+    .footer {
+		.columns {
+			color: #777;
+			font-size: 75%;
+
+			h5 {
+				color: $primary-color;
+                margin-bottom: 0;
+			}
+
+            @media #{$small-only} {
+                margin-bottom: emCalc(25px);
+
+                div:last-of-type {
+                    margin-bottom: 0;
+                }
+
+                i {
+                    padding-left: emCalc(25px);
+                }
+            }
+		}
+    }
+
+    .menu-container {
+        margin-bottom: emCalc(10px);
+    }
+}

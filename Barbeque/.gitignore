@@ -1,0 +1,6 @@
+####
+Restore directory contents with grunt install, bower install, and grunt build.
+####
+css/*
+fonts/*
+scripts/*

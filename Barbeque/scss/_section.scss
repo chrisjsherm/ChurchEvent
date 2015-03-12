@@ -1,0 +1,40 @@
+﻿.banner {
+    background-color: $banner-bg;
+    padding: emCalc(25px) 0 emCalc(50px) 0;
+
+    .bordered {
+        border-top: emCalc(5px) dotted $header-font-color;
+        border-bottom: emCalc(5px) dotted $header-font-color;
+        padding: emCalc(25px);
+        margin-top: emCalc(15px);
+    }
+
+    a {
+        color: inherit;
+
+        &:hover {
+            color: inherit;
+        }
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.details {
+    background-color: $header-font-color;
+    color: $banner-bg;
+    padding: emCalc(50px) 0;
+
+    a {
+        color: inherit;
+        text-decoration: underline;
+    }
+}
+
+.sub-section {
+    padding-top: emCalc(25px);
+}

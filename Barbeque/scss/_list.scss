@@ -1,0 +1,16 @@
+﻿.title-upper {
+    dt {
+        font-size: emCalc(20px);
+        text-transform: uppercase;
+    }
+
+    dd {
+        font-size: emCalc(15px);
+        padding-left: emCalc(25px);
+        padding-bottom: emCalc(25px);
+
+        &:last-of-type {
+            padding-bottom: 0;
+        }
+    }
+}
