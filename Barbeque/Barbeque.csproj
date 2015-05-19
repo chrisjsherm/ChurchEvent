@@ -422,6 +422,7 @@
     <Content Include="scss\_list.scss" />
     <Content Include="scss\_section.scss" />
     <Content Include="scss\_footer.scss" />
+    <None Include="Properties\PublishProfiles\churchbbq.pubxml" />
     <None Include="Properties\PublishProfiles\churchevent.pubxml" />
   </ItemGroup>
   <PropertyGroup>
